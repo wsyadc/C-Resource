@@ -473,6 +473,7 @@ int main() {
 	cout << "ref2 = " << ref2 << endl;
 	cout << "ref2 = " << ref2 << endl;
 
+	//等价于函数返回的时一个变量的引用，然后 =1000，等价于赋值。
 	test02() = 1000;
 
 	cout << "ref2 = " << ref2 << endl;
